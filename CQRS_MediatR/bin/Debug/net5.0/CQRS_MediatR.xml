@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CQRS_MediatR</name>
+    </assembly>
+    <members>
+        <member name="T:CQRS_MediatR.Commands.AddStudentCommand">
+            <summary>
+            Handler CUD.
+            </summary>
+        </member>
+        <member name="M:CQRS_MediatR.Controllers.StudentController.Get">
+            <summary>
+            Get Student.
+            </summary>
+            <returns>Danh sách sinh viên </returns>
+        </member>
+        <member name="T:CQRS_MediatR.DataAccess.StudentServices">
+            <summary>
+            Handle Data Access.
+            </summary>
+        </member>
+        <member name="T:CQRS_MediatR.Queries.GetStudentListQuery">
+            <summary>
+            Handler Read.
+            </summary>
+        </member>
+        <member name="F:CQRS_MediatR.Queries.GetStudentListQuery.GetStudentListHandler._data">
+            <summary>
+            Dependecy Injection.
+            </summary>
+        </member>
+        <member name="M:CQRS_MediatR.Queries.GetStudentListQuery.GetStudentListHandler.Handle(CQRS_MediatR.Queries.GetStudentListQuery,System.Threading.CancellationToken)">
+            <summary>
+            Handle.
+            </summary>
+            <param name="request">Parameter request.</param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
